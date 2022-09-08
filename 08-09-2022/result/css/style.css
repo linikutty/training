@@ -1,0 +1,15 @@
+h1{
+    color:chocolate;font-size:50px;text-align: center;text-decoration: underline;
+}
+h2{
+    color:crimson;font-size:30px;
+}
+.para11{
+    color:darkblue;
+}
+.para12{
+    color:darkmagenta;
+}
+ul{
+    color:deeppink;text-align:justify;text-decoration:line-through;border:2px solid red;width:500;
+}
