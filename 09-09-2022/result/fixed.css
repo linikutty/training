@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    position:fixed;
+    left:0;
+    top:0;
+    background-color:gray;height:100px;
+}
+h2{
+    position:sticky;
+    left:0;
+    top:0;
+    background-color:gray;height:100px;
+}
