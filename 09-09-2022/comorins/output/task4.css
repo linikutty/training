@@ -2,12 +2,9 @@
     margin:0;
     padding:0;
 }
-body{
-    margin:20px;
-}
 .position{
     border:5px solid gray;
-    width:75%;
+    width:100%;
     height:100%;
     position:relative;
 }
@@ -35,10 +32,10 @@ body{
     height:200px;
     width: 250px;
     position:absolute;
-    left:425;
-    top:250;
-    right:575;
-    bottom:150;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
 }
 .left_bottom{
     border:4px solid rgb(115, 124, 118);
