@@ -1,0 +1,12 @@
+ul{
+    border:1px solid darkgray;
+    height5ps;
+    width:100%;
+    background-color: gray;
+    text-align: center;
+
+}
+li{
+    color:aliceblue;
+    display:inline-block;
+}
