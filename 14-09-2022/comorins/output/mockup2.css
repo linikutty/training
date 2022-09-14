@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    text-align: center;
+    background-color: darkgrey;
+    color:aliceblue;
+    font-size:30px;
+    padding:40px;
+}
+nav{
+    text-align: center;
+    color:azure;
+    background-color: gray;
+    padding:20px;
+    font-size: 20px;
+}
+section{
+    width:70%;
+    margin:0 auto;
+    padding:50px;
+    
+}
+.column1{
+    display: inline-block;
+    text-align: center;
+    background-color:darkgrey;
+    width:74%;
+    height:50%;
+    padding-top: 200px;
+}
+.column2{
+    display: inline-block;
+    text-align: center;
+    background-color:grey;
+    width:25%;height:50%;
+    padding-top: 200px;
+}
+footer{
+    text-align: center;
+    background-color: darkgrey;
+    color:aliceblue;
+    font-size:30px;
+    padding:20px;
+}
