@@ -18,14 +18,23 @@ nav{
     padding:20px;
     font-size: 20px;
 }
-p{
-    margin-bottom: 10px;
+.slideshow{
+    border: 10px solid gray;
     text-align: center;
     color:aliceblue;
-    background-color: grey;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    background-color:darkgray;
+    padding:85px;
     font-size: 20px;
+}
+.grid{
+    background-color: gray;
+}
+.column{
+    width:31.8%;
+    height:200px;
+    background: #fff;
+    display: inline-block;
+    margin:10px;
 }
 footer{
     text-align: center;
