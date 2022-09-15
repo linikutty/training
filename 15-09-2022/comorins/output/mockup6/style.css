@@ -1,0 +1,37 @@
+nav{
+    background: #333333;
+    padding-bottom: 49px;
+    text-align: center;
+    padding-top: 48px;
+}
+.navul{
+    text-align: center;
+}
+.list1{
+    color: #FFFEFE;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    display: inline-block;
+    padding-right: 54px;
+ 
+  
+}
+.list1:last-child{
+    padding-right: 0;
+}
+.para{
+    float:right;
+    display: inline-block;
+}
+
+.img1{
+    width: 218px;
+    height: 146px;
+    float: left;
+}
+.indo1{
+    display: inline-block;
+}

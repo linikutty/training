@@ -4,20 +4,22 @@
 }
 body{
 
-    background-color: lightblue;
+    background-color:lavender;
     margin:10px;
 }
 header{
-    text-align: center;
-    background-color: aliceblue;
+    
+    background-color: white;
 }
 .tophead{
-    padding-top: 3px;
-    padding-bottom: 3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .para1{
-    padding-top: 3px;
-    padding-bottom: 3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav{
     background-color:black ;
@@ -28,9 +30,76 @@ nav{
 .navli1{
     color:aliceblue;
     display: inline-block;
+    padding: 10px;
 }
-navli2{
+.navli2{
     display: inline-block;
-    float: left;
     color: aliceblue;
+    padding-left:1270px ;
+}
+.leftdiv{
+    width:70%;
+    display:inline-block;
+}
+.div1{
+    padding-bottom:18px;padding-left: 10px;
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title1{
+    padding-top: 15px;
+}
+.imgbox1{
+    background-color: gray;
+    padding-bottom:85px;
+}
+.rightdiv{
+    width:29%;
+    margin-left: 10px;
+    display:inline-block;
+    vertical-align: top;
+
+}
+.div2{
+    padding:15px;
+    background: white;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.imgbox2{
+    background-color:grey ;
+    padding-bottom: 30px;
+
+}
+.imgbox3{
+    background-color:grey ;
+    padding-bottom:30px;
+}
+b{
+    display:block;
+    padding: 10px 0px 43px 10px
+}
+.div3{
+    padding-bottom:15px;
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.div4{
+    padding-bottom:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background: darkgray;
+}
+h3{
+    padding:15px;
+}
+p{
+    padding-bottom: 15px;
+    padding-top: 15px;
 }

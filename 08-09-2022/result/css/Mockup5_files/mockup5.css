@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: darkgray;
+    padding-left: 60px;
+    
+}
+nav{
+    display: inline-block;
+    width:22%
+}
+.logo{
+    width:70%;
+    display:inline-block;
+}
+.navul{
+    width:66%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.link1{
+    display: inline-block;
+}
+.intro{
+    width:60%;
+    display: inline-block;
+}
+.slide{
+    display: inline-block;
+    width:20%;
+    background-color: grey;
+    padding: 50px;
+}
+section{
+    margin:5% auto;
+    width:70%;
+}
+.box11{
+    background-color: darkgray;
+    display: inline-block;
+    padding: 13%;
+    margin:15px 5px 15px 5px;
+}
+.box21{
+    background-color: darkgray;
+    display: inline-block;
+    padding: 10%;
+    margin:15px 5px 15px 5px ;
+}
+.box3{
+    background-color: darkgray;
+    padding:25px
+}
+footer{
+    background-color: darkgray;
+    position: relative;
+    padding:30px;
+
+}
+.footul{
+    display: inline-block;
+}
+.link2{
+    display: inline-block;
+
+}
+.parafoot{
+    display: inline-block;
+    position:absolute;
+    right:0;top: 0;
+}

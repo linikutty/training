@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner{
+    background-color: darkgray;
+}
+header{
+    background-color: darkgray;
+    width:80%;
+    
+}
+nav{
+    display: inline-block;
+    width:29%
+}
+.logo{
+    width:70%;
+    display:inline-block;
+}
+.navul{
+    width:66%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.link1{
+    display: inline-block;
+}
+.intro{
+    width:68%;
+    display: inline-block;
+}
+.slide{
+    display: inline-block;
+    width:20%;
+    background-color: grey;
+    padding: 50px;
+}
+section{
+    margin:5% auto;
+    width:70%;
+}
+.box11{
+    background-color: darkgray;
+    display: inline-block;
+    width:32%;
+    padding-top:13%;
+    padding-bottom:13%;
+    margin:15px 5px 15px 5px;
+}
+.para1{
+    text-align: center;
+}
+.box21{
+    background-color: darkgray;
+    display: inline-block;
+    width:32%;
+    padding-top:13%;
+    padding-bottom:13%;
+    margin:15px 5px 15px 5px ;
+}
+.box3{
+    background-color: darkgray;
+    padding:25px
+}
+footer{
+    background-color: darkgray;
+    position: relative;
+    padding:30px;
+
+}
+.footul{
+    display: inline-block;
+}
+.link2{
+    display: inline-block;
+
+}
+.parafoot{
+    display: inline-block;
+    padding-left: 76%;
+}
