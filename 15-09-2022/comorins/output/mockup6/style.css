@@ -1,11 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+}
 nav{
     background: #333333;
     padding-bottom: 49px;
     text-align: center;
     padding-top: 48px;
 }
+header{
+    overflow: hidden;
+}
 .navul{
     text-align: center;
+    padding-top: 48px;
+    padding-bottom: 49px;
 }
 .list1{
     color: #FFFEFE;
@@ -15,23 +24,327 @@ nav{
     font-size: 27px;
     line-height: 32px;
     display: inline-block;
-    padding-right: 54px;
- 
-  
+    padding-right: 44px; 
 }
-.list1:last-child{
-    padding-right: 0;
+.head1{
+    border-bottom: 1px solid #000000;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 29px rgba(111, 111, 111, 0.25);
+    overflow: hidden;
+    display: table;
+    width: 100%;
+   
+    
+   
 }
 .para{
-    float:right;
-    display: inline-block;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    padding-right:30px ;
+    
 }
 
 .img1{
     width: 218px;
-    height: 146px;
-    float: left;
+    display: table-cell;
+    margin: 21px 0;
+    padding-left: 50px;
+}
+section{
+    margin:0 auto;
+}
+.indo{
+    background: #F3F2EE;
+    padding-left: 63px;
 }
 .indo1{
     display: inline-block;
+    width:32.3%;
+    margin:5px;
 }
+h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    /* identical to box height */
+
+
+    color: #343434;
+    padding-top: 72px;
+    padding-bottom: 23px;
+}
+.img2{
+    border: 1px solid #6F6C6C;
+    padding:12px 16px;
+}
+.p3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 153.19%;
+    /* or 35px */
+
+    color: #000000;
+    padding-right: 60px;
+
+}
+.p4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 153.19%;
+    /* or 44px */
+
+
+    color: #6D9D34;
+}
+.rightdiv{
+    width:60%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 38px;
+}
+.img3{
+    padding:101px 50px 134px 50px;
+}
+.p3{
+    display: inline-block;
+    
+}
+.rightdiv2 .head3{
+    color: #8F8F8F;
+    border-bottom: 1px solid #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 153.19%;
+    /* identical to box height, or 66px */
+   
+}
+.rightimg{
+    display: inline-block;
+    width:30%;
+    vertical-align: top;
+}
+.img4{
+    padding: 17px 20px 17px 20px;
+    border: 1px solid #333333;
+}
+.rightpara{
+    display: inline-block;
+    width:69%;
+}
+.para5{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 153.19%;
+    /* identical to box height, or 31px */
+
+
+    color: #8f8f8f;
+
+}
+
+.para6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 153.19%;
+    /* or 25px */
+
+
+    color: #8F8F8F;
+    padding-left: 48px;
+}
+.leftdiv{
+    width:35%;
+    display: inline-block;
+}
+.box{
+    border-bottom: 1px solid #949393;
+}
+.lefthead{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 153.19%;
+    /* identical to box height, or 66px */
+
+
+    color: #8F8F8F;
+    border-bottom: 1px solid #949393;
+}
+.boximg{
+    display: inline-block;
+    width:48%;
+}
+.img5{
+    box-sizing: border-box;
+    border: 1px solid #7B7979;
+    padding: 15px 19px 15px 19px;
+
+}
+.boxpara{
+    display: inline-block;
+    width:51%;
+  
+}
+.leftpara1{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 169.19%;
+    /* or 34px */
+
+
+    color: #707070;
+}
+.leftpara2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 153.19%;
+    /* identical to box height, or 37px */
+
+
+    color: #6D9D34;
+}
+.divbottom{
+    background: #333333;
+    width:100%;
+}
+.about{
+    width:32%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left:46px ;
+}
+.bottom-p1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 109.19%;
+    /* or 22px */
+
+
+    color: #FFFFFF;
+}
+.headbottom{
+    vertical-align: top;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 153.19%;
+    /* identical to box height, or 66px */
+
+
+    color: #B1B1B1;
+    border-bottom: 1px solid #F0F0F0;
+}
+.aboutimg{
+    display:inline-block;
+    width: 25%;
+}
+.img6{
+    border: 1px solid #C2C2C2;
+    padding:13px 11px 13px 11px;
+}
+.aboutpara{
+    display:inline-block;
+    width:48%;
+    float: right;
+    
+}
+.bottom-p2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 119.69%;
+    /* identical to box height, or 23px */
+
+
+    color: #FFFFFF;
+}
+.latestimg{
+    width:32%;
+    display: inline-block;
+}
+.latestimg1{
+    padding:26px 16px 16px 0px;
+}
+.contact{
+    width:32%;
+    display: inline-block;
+    vertical-align: top;
+}
+.details{
+    list-style: none;
+}
+.bottomli{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 195.19%;
+    /* or 41px */
+
+
+    color: #FFFFFF;
+    
+}
+footer{
+    background: #777777;
+}
+.footpara1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 195.19%;
+    /* identical to box height, or 41px */
+
+
+    color: #D7E8B9;
+    display: inline-block;
+    padding:23px 0px 23px 41px;
+}
+.footpara2{
+    display: inline-block;
+    float:right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 195.19%;
+    /* identical to box height, or 41px */
+
+
+    color: #D7E8B9;
+    padding:23px 28px 41px 0px;
+}
+
+
