@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
 }
-nav{
+nav{                                                            /*header start here*/
     background: #333333;
     padding-bottom: 49px;
     text-align: center;
@@ -51,25 +51,36 @@ header{
     padding-right:30px ;
     
 }
+.p1{
+    padding-bottom: 16px;
+}
 
 .img1{
     width: 218px;
     display: table-cell;
     margin: 21px 0;
     padding-left: 50px;
-}
-section{
+}                                         
+                              /*header end here*/
+                                /*section start here*/
+section{                                    
+    width:100%;
     margin:0 auto;
 }
-.indo{
+.indo{                              /*first div start here*/
     background: #F3F2EE;
-    padding-left: 63px;
+    width:100%;
+    margin:0 auto;
 }
 .indo1{
     display: inline-block;
-    width:32.3%;
-    margin:5px;
+    width:26.3%;
+    padding: 23px 50px 61px 50px;
+    
 }
+/*.p3{
+    padding:49px 0px 14px 38px;
+}*/
 h4{
     font-family: 'Roboto';
     font-style: normal;
@@ -96,7 +107,7 @@ h4{
     /* or 35px */
 
     color: #000000;
-    padding-right: 60px;
+    padding: 49px 15px 14px 0px;
 
 }
 .p4{
@@ -109,12 +120,19 @@ h4{
 
 
     color: #6D9D34;
+    padding-top: 14px;
+    padding-left: 38px;
+    padding-bottom: 13px;
+}                                           /*first div end here*/
+.div1{
+    padding-left: 44px;
+    padding-right: 44px;
 }
-.rightdiv{
+.rightdiv{                                  /*right div end here*/
     width:60%;
     display: inline-block;
     vertical-align: top;
-    padding-left: 38px;
+    padding-right: 35px;
 }
 .img3{
     padding:101px 50px 134px 50px;
@@ -132,23 +150,28 @@ h4{
     font-size: 43px;
     line-height: 153.19%;
     /* identical to box height, or 66px */
+    padding-left: 38px;
+    padding-bottom: 16px;
    
 }
 .rightimg{
     display: inline-block;
-    width:30%;
+    width:24%;
     vertical-align: top;
+    padding: 34px 20px 42px 25px;
 }
 .img4{
     padding: 17px 20px 17px 20px;
     border: 1px solid #333333;
+    
 }
 .rightpara{
-    display: inline-block;
-    width:69%;
+    width:68%;
+    padding-top: 34px;
+    padding-bottom: 23px;
+    float: right;
 }
-.para5{
-    display: inline-block;
+.para51{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -157,8 +180,26 @@ h4{
     /* identical to box height, or 31px */
 
 
-    color: #8f8f8f;
+    color: #8F8F8F;
+    padding-left: 20px;
+    padding-bottom: 23px;
+}
+.para5{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 118.19%;
+    /* or 21px */
 
+
+    color: #8F8F8F;
+
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
 }
 
 .para6{
@@ -171,10 +212,12 @@ h4{
 
 
     color: #8F8F8F;
-    padding-left: 48px;
-}
-.leftdiv{
-    width:35%;
+    padding-left: 34px;
+    padding-top: 42px;
+    padding-bottom: 89px;
+}                                   /*right div end here*/
+.leftdiv{                                       /*left div start here*/
+    width:37%;
     display: inline-block;
 }
 .box{
@@ -191,10 +234,15 @@ h4{
 
     color: #8F8F8F;
     border-bottom: 1px solid #949393;
+    padding-top: 64px;
+    padding-bottom: 4px;
 }
 .boximg{
     display: inline-block;
-    width:48%;
+    width:42%;
+    padding-top: 30px;
+    padding-bottom: 47px;
+    padding-right: 26px;
 }
 .img5{
     box-sizing: border-box;
@@ -207,6 +255,18 @@ h4{
     width:51%;
   
 }
+.leftpara11{
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 169.19%;
+    /* or 37px */
+
+
+    color: #6C6C6C;
+}
 .leftpara1{
     display: inline-block;
     font-family: 'Roboto';
@@ -218,6 +278,8 @@ h4{
 
 
     color: #707070;
+    
+    padding-bottom: 17px;
 }
 .leftpara2{
     font-family: 'Roboto';
@@ -229,28 +291,24 @@ h4{
 
 
     color: #6D9D34;
-}
-.divbottom{
+    padding-bottom: 18px;
+    padding-left:60px;
+    padding-top: 17px;
+}                                   /*left div end here*/
+.divbottom{                             /*bottom div start here*/
     background: #333333;
     width:100%;
+    margin-top: 44px;
+    padding-top: 63px;
 }
 .about{
-    width:32%;
+    width:36%;
     display: inline-block;
     vertical-align: top;
-    padding-left:46px ;
+    padding-left:43px ;
+    padding-right: 30px;
 }
-.bottom-p1{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 109.19%;
-    /* or 22px */
 
-
-    color: #FFFFFF;
-}
 .headbottom{
     vertical-align: top;
     font-family: 'Roboto';
@@ -263,20 +321,46 @@ h4{
 
     color: #B1B1B1;
     border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 12px;
 }
 .aboutimg{
     display:inline-block;
     width: 25%;
+    padding-top: 26px;
 }
 .img6{
     border: 1px solid #C2C2C2;
     padding:13px 11px 13px 11px;
 }
 .aboutpara{
-    display:inline-block;
-    width:48%;
+    width:52%;
     float: right;
-    
+    padding-top: 26px;
+}
+.bottom-p1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 169.19%;
+    /* identical to box height, or 41px */
+
+
+    color: #FFFFFF;
+    padding-bottom: 10px;
+
+}
+.bottom-p11{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 109.19%;
+    /* or 22px */
+
+
+    color: #FFFFFF;
+    padding-bottom: 8px;
 }
 .bottom-p2{
     font-family: 'Roboto';
@@ -288,21 +372,25 @@ h4{
 
 
     color: #FFFFFF;
+    padding: 29px 0px 47px 52px;
 }
 .latestimg{
-    width:32%;
+    width:28%;
     display: inline-block;
+    padding-right: 30px;
 }
 .latestimg1{
-    padding:26px 16px 16px 0px;
+    padding:26px 28px 16px 0px;
 }
 .contact{
-    width:32%;
+    width:25%;
     display: inline-block;
     vertical-align: top;
+    padding-right:43px ;
 }
 .details{
     list-style: none;
+    padding-top: 26px;
 }
 .bottomli{
     font-family: 'Roboto';
@@ -315,8 +403,8 @@ h4{
 
     color: #FFFFFF;
     
-}
-footer{
+}                           /*bottom div end here*/
+footer{                             /*footer div start here*/
     background: #777777;
 }
 .footpara1{
@@ -333,7 +421,6 @@ footer{
     padding:23px 0px 23px 41px;
 }
 .footpara2{
-    display: inline-block;
     float:right;
     font-family: 'Roboto';
     font-style: normal;
@@ -344,7 +431,7 @@ footer{
 
 
     color: #D7E8B9;
-    padding:23px 28px 41px 0px;
+    padding:23px 41px 41px 0px;
 }
-
+                                            /*footer end here*/
 
