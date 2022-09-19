@@ -1,0 +1,19 @@
+@media(max-width:1200px){
+    p{
+        width:24%;
+        height:200px;
+        display: inline-block;
+    }
+}
+@media(max-width:991px){
+    p{
+        width:50%;
+    }
+}
+@media(max-width:767px){
+    p{
+        width:100%;
+        display: block;
+
+    }
+}

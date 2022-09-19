@@ -1,0 +1,27 @@
+@media(min-width:575px){
+    p{
+        border: 1px solid black;
+        background: red;
+        height:60px;
+    }
+}
+@media(min-width:767px){
+    p{
+        width:24%;
+        background: green;
+        display: inline-block;
+    }
+}
+@media(min-width:991px){
+    p{
+        width:49%;
+        background: blue;
+
+    }
+}
+@media(min-width:1200px){
+    p{
+        width:20%;
+        background: pink;
+    }
+}

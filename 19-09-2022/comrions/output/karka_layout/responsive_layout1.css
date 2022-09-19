@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+@media(min-width:575px){
+    body{
+        margin:10px;
+        background-color: lightblue;
+    }
+    header{                         /*header start here*/
+        padding-top: 20px;
+        padding-bottom:20px ;
+        text-align: center;
+        background-color: aliceblue;
+    } 
+    .head1{
+        text-align: center;
+        padding-bottom: 10px;
+    }                           /*header end here*/
+    nav{                        /*nav start here*/
+        background-color: gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .nav_li{
+        color:aliceblue;
+        display: inline-block;
+        padding-left: 20px;
+        
+    }                          /*nav end here*/ 
+    .right_div{                         /*right div start here*/
+        width:100%;
+        
+    }
+    .right_1{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    
+    }
+    .head2{
+        padding-bottom: 10px;
+    }
+    .p1{
+        padding-bottom: 10px;
+    }
+    .image{
+        background-color: darkgray;
+        padding:20px 0px 95px 10px;
+    }
+    .p2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }                           /*right div end here*/
+    .left_div{                      /*left div start here*/
+        width:100%;
+    }
+    .left_1{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .left_2{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .image1{
+        background-color: darkgray;
+        padding:10px 0px 60px 10px;
+    }
+    b{
+        display: block;
+        padding-bottom: 38px;
+    }
+    .left_3{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }                        /*left div end here*/
+    .foot{
+        text-align: center;
+        background-color: beige;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+@media(min-width:767px){
+    body{
+        margin:10px;
+        background-color: lightblue;
+    }
+    header{                         /*header start here*/
+        padding-top: 20px;
+        padding-bottom:20px ;
+        text-align: center;
+        background-color: aliceblue;
+    } 
+    .head1{
+        text-align: center;
+        padding-bottom: 10px;
+    }                           /*header end here*/
+    nav{                        /*nav start here*/
+        background-color: gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .nav_li{
+        color:aliceblue;
+        display: inline-block;
+        padding-left: 20px;
+        
+    }                          /*nav end here*/ 
+    .right_div{                         /*right div start here*/
+        width:59.1%;
+        display: inline-block;
+        
+    }
+    .right_1{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    
+    }
+    .head2{
+        padding-bottom: 10px;
+    }
+    .p1{
+        padding-bottom: 10px;
+    }
+    .image{
+        background-color: darkgray;
+        padding:20px 0px 95px 10px;
+    }
+    .p2{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }                           /*right div end here*/
+    .left_div{                      /*left div start here*/
+        width:40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .left_1{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .left_2{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .image1{
+        background-color: darkgray;
+        padding:10px 0px 60px 10px;
+    }
+    b{
+        display: block;
+        padding-bottom: 38px;
+    }
+    .left_3{
+        padding: 15px 10px 15px 10px;
+        background-color: white ;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }                        /*left div end here*/
+    .foot{
+        text-align: center;
+        background-color: beige;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+@media(min-width:1200px){
+body{
+    margin:10px;
+    background-color: lightblue;
+}
+header{                         /*header start here*/
+    padding-top: 20px;
+    padding-bottom:20px ;
+    text-align: center;
+    background-color: aliceblue;
+}           
+.head1{
+    text-align: center;
+    padding-bottom: 10px;
+}                               /*header end here*/  
+nav{                        /*nav start here*/
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.nav_li{
+    color:aliceblue;
+    display: inline-block;
+    padding-left: 20px;
+    float: left;
+}
+.nav_li:last-child{
+    float: right;
+    padding-right: 20px;
+}                           /*nav end here*/
+.right_div{                         /*right div start here*/
+    width:60.1%;
+    display: inline-block;
+    
+}
+.right_1{
+    padding: 15px 10px 15px 10px;
+    background-color: white ;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+.head2{
+    padding-bottom: 10px;
+}
+.p1{
+    padding-bottom: 10px;
+}
+.image{
+    background-color: darkgray;
+    padding:20px 0px 95px 10px;
+}
+.p2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}                           /*right div end here*/
+.left_div{                      /*left div start here*/
+    width:39.1%;
+    display: inline-block;
+    vertical-align: top;
+}
+.left_1{
+    padding: 15px 10px 15px 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.left_2{
+    padding: 15px 10px 15px 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.image1{
+    background-color: darkgray;
+    padding:10px 0px 60px 10px;
+}
+b{
+    display: block;
+    padding-bottom: 38px;
+}
+.left_3{
+    padding: 15px 10px 15px 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}                        /*left div end here*/
+.foot{
+    text-align: center;
+    background-color: beige;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+}
