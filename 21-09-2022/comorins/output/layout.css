@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding: 0;
+}
+@media(min-width: 575px){
+	header{
+		color:white;
+		background: gray;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	nav{
+		color:white;
+		background: darkgray;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.box1{
+		height:200px;
+		background: darkgrey;
+		border: 5px solid white;
+		padding-top: 75px;
+	}
+	.box2{
+		height:200px;
+		background: darkgray;
+		border: 5px solid white;
+		padding-top: 75px;
+		height:70px;
+	}
+	footer{
+		color:white;
+		background: grey;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+}
+@media(min-width: 767px){
+	header{
+		color:white;
+		background: gray;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	nav{
+		color:white;
+		background: darkgray;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.box1{
+		height:200px;
+		background: darkgrey;
+		border: 5px solid white;
+		padding-top: 75px;
+	}
+	.box2{
+		height:200px;
+		background: darkgray;
+		border: 5px solid white;
+		padding-top: 75px;
+	}
+	footer{
+		color:white;
+		background: grey;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+
+}
+@media(min-width: 991px){
+	header{
+		color:white;
+		background: gray;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	nav{
+		color:white;
+		background: darkgray;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.box1{
+		height:200px;
+		background: darkgrey;
+		border: 5px solid white;
+		padding-top: 75px;
+	}
+	.box2{
+		height:200px;
+		background: darkgray;
+		border: 5px solid white;
+		padding-top: 75px;
+	}
+	footer{
+		color:white;
+		background: grey;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+
+}
+@media(min-width: 1200px){
+	header{
+		color:white;
+		background: gray;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	nav{
+		color:white;
+		background: darkgray;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.box1{
+		height:200px;
+		background: darkgrey;
+		border: 5px solid white;
+		padding-top: 75px;
+	}
+	.box2{
+		height:200px;
+		background: darkgray;
+		border: 5px solid white;
+		padding-top: 75px;
+
+	}
+	footer{
+		color:white;
+		background: grey;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+}
