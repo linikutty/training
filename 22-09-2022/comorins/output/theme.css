@@ -95,24 +95,15 @@
         padding-left: 38px;
         padding-bottom: 16px;
     }
-    .rightimg{
-        width:38%;
-        vertical-align: top;
-        padding: 34px 0px 42px 0px;
-        display: inline-block;
-    }
+    
     .img4{                         
         padding: 17px 20px 17px 20px;
         border: 1px solid #333333;
-        width:100%;
+        float:left;
         
     }
     
-    .rightpara{
-        width:56%;
-        float: right;
-        vertical-align: top;
-    }
+   
     .para51{
         font-family: 'Roboto';
         font-style: normal;
@@ -123,7 +114,7 @@
     
     
         color: #8F8F8F;
-        padding-left: 20px;
+    
     }
     .para5{
         
@@ -256,22 +247,13 @@
         border-bottom: 1px solid #F0F0F0;
         padding-bottom: 12px;
     }
-    .aboutimg{
-        display:inline-block;
-        padding-top: 26px;
-        width:40%;
-    }
+    
     .img6{
         border: 1px solid #C2C2C2;
         padding:13px 11px 13px 11px;
-        width:100%;
+        float:left;
     }
-    .about_para{
-        padding-top: 22px;
-        float: right;
-        width:60%;
-        padding-left: 10px;
-    }
+    
     .foot-p1{
         font-family: 'Roboto';
         font-style: normal;
@@ -454,25 +436,15 @@
         padding-left: 38px;
         padding-bottom: 16px;
     }
-    .rightimg{
-        width:38%;
-        vertical-align: top;
-        padding: 34px 0px 42px 0px;
-        display: inline-block;
-    }
+    
     .img4{                         
         padding: 17px 20px 17px 20px;
         border: 1px solid #333333;
-        width:100%;
+        float:left;
         
     }
     
-    .rightpara{
-        width:56%;
-        float: right;
-        vertical-align: top;
-        padding-top: 34px;
-    }
+   
     .para51{
         font-family: 'Roboto';
         font-style: normal;
@@ -619,22 +591,13 @@
         border-bottom: 1px solid #F0F0F0;
         padding-bottom: 12px;
     }
-    .aboutimg{
-        display:inline-block;
-        padding-top: 26px;
-        width:40%;
-    }
+    
     .img6{
         border: 1px solid #C2C2C2;
         padding:13px 11px 13px 11px;
-        width:100%;
+        float:left;
     }
-    .about_para{
-        padding-top: 22px;
-        float: right;
-        width:60%;
-        padding-left: 15px;
-    }
+    
     .foot-p1{
         font-family: 'Roboto';
         font-style: normal;
@@ -818,26 +781,15 @@
         padding-left: 38px;
         padding-bottom: 16px;
     }
-    .rightimg{
-        width:43%;
-        vertical-align: top;
-        padding: 34px 0px 42px 0px;
-        display: inline-block;
-    }
+    
     .img4{                         
         padding: 17px 20px 17px 20px;
         border: 1px solid #333333;
-        width:100%
+        float:left;
         
     }
     
-    .rightpara{
-        width:56%;
-        padding-bottom: 23px;
-        float: right;
-        vertical-align: top;
-        padding-left: 20px;
-    }
+    
     .para51{
         font-family: 'Roboto';
         font-style: normal;
@@ -972,21 +924,13 @@
         border-bottom: 1px solid #F0F0F0;
         padding-bottom: 12px;
     }
-    .aboutimg{
-        display:inline-block;
-        padding-top: 26px;
-        width:40%;
-    }
+    
     .img6{
         border: 1px solid #C2C2C2;
         padding:13px 10px 13px 10px;
-        width:100%;
+       float:left;
     }
-    .about_para{
-        float: right;
-        width:60%;
-        padding-left: 10px;
-    }
+    
     .foot-p1{
         font-family: 'Roboto';
         font-style: normal;
@@ -1167,24 +1111,15 @@
         padding-left: 38px;
         padding-bottom: 16px;
     }
-    .rightimg{
-        width:38%;
-        vertical-align: top;
-        padding: 34px 0px 42px 0px;
-        display: inline-block;
-    }
+    
     .img4{                         
         padding: 17px 20px 17px 20px;
         border: 1px solid #333333;
-        width: 100%;
+        float: left;
         
     }
     
-    .rightpara{
-        width:62%;
-        float: right;
-        vertical-align: top;
-    }
+   
     .para51{
         font-family: 'Roboto';
         font-style: normal;
@@ -1330,22 +1265,13 @@
         border-bottom: 1px solid #F0F0F0;
         padding-bottom: 12px;
     }
-    .aboutimg{
-        display:inline-block;
-        padding-top: 26px;
-        width:40%;
-    }
+    
     .img6{
         border: 1px solid #C2C2C2;
         padding:13px 11px 13px 11px;
-        width:100%;
+        float:left;
     }
-    .about_para{
-        padding-top: 22px;
-        float: right;
-        width:60%;
-        padding-left: 10px;
-    }
+   
     .foot-p1{
         font-family: 'Roboto';
         font-style: normal;

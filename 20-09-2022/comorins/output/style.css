@@ -578,14 +578,13 @@ header{
                                     /*header starts here*/
 header{
     width:100%;
-    overflow: hidden;
+    position:fixed;
+    background-color: #FFFFFF;
 }
 .headdiv{
     width: 90%;
     margin:0 auto;
     display:table;
-    position:fixed;
-    background-color: #FFFFFF;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -644,7 +643,6 @@ header{
 .banner{
     width:90%;
     margin:0 auto;
-    margin-top: 50%;
 }
 .banner_left{
     display: inline-block;

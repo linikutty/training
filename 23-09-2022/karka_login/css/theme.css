@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+@media(min-width:1200px){
+   .left_img1{              /*head left start here*/
+    width: 137px;
+    height: 84.86px;
+    
+   }
+   .left_img2{
+    margin-left: 76px;
+   }                    /*head left start here*/
+   .head_1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   }
+                /*head right start here*/
+    .head_a{
+        width:100%;
+        margin-top: 26px;
+    }
+  .right_p1{
+    margin-left: 20px;
+  }
+  .right_img2{
+    position: relative;
+  }
+   .right_p2{
+    background-image:url('../image/red.png');
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    padding: 3px 8px 3px 8px;
+    
+   }
+   .right_img2{
+    margin-left: 44px;
+   }
+   .head_input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #34455E;
+    background: #FFFFFF;
+    border: 2px solid #34455E;
+    border-radius: 30px;
+    padding: 6px;
+    margin-left: 46px;
+   }                                    /*head right end here*/
+                                        /*section left start here*/
+   .section_ul{
+        padding-top: 57px;
+      
+        
+   }
+   .section_li{
+    border-block: none;
+    overflow: hidden;
+   }
+   .li_img{
+    padding-right: 27px;
+    
+   }
+   .li_img1{
+    float: right;
+   }                                        /*section left end here*/
+                                            /*section right start here*/
+  
+   .section_left{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    
+   }
+   .section_right{
+    margin-top: 26px;
+   }
+    .section_p{
+    width:100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 11px 0px 12px 22px;
+
+   }
+                            /*right row 1 start here*/
+    .right_row_1{
+      background: #FFFFFF;
+      border: 1px solid #C4C4C4;
+      border-radius: 0px 0px 8px 8px;
+    } 
+   .profile_p1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+   }
+   .profile_p2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+   }
+   .profile_label{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+   }
+   .profile_input{
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+   }
+
+   
+                            /*right row 1 end here*/
+                            /*recent fa start here*/
+  .recent_head{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+  .recent_para{
+    border: 2px solid #C4C4C4;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    width: 84px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin:0 auto;
+
+
+  }
+  .para{
+    padding-top: 30px;
+    border-right: 1px solid #000000;
+  }
+  .recent_para_1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #000000;
+  
+  }
+  .recent_fa{
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    border-radius: 8px;
+  }
+
+  .recent_img{
+    padding-right:33px ;
+  }                       /*recent fa end here*/
+                  /*right_3 start here*/
+  .product{
+    border: 2px solid #C4C4C4;
+    border-radius: 15px;
+  }
+  .product_head{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 28px;
+
+      color: #000000;
+      padding-top: 25px;
+       padding-bottom: 25px;
+
+  }
+  .product_col_1{
+    margin: 0 auto;
+  }
+  .product_col_head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #0374BC;
+    padding-top: 27px;
+    padding-bottom: 30px;
+
+  }
+  .product_ul{
+    border-right: 2px solid #C4C4C4;
+    
+  }
+  .product_li{
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+    background: #C4C4C4;
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    list-style: none;
+    margin-bottom: 11px;
+    width: 40%;
+    text-align: center;
+
+  }
+  .product_label{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+  }
+  .product_label{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+  }
+  .product_input_1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+  }
+  .product_btn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+    padding:9px 15px 9px 15px ;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+
+  }
+  .product_dbtn_1{
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    padding: 17px 30px 17px 30px;
+    margin-left: 40px;
+  }
+  
+}

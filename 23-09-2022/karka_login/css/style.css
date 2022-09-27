@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+@media(min-width:1200px){
+    
+    .head_h1{                           /*head_left start here*/
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+
+        color: #000000;
+        padding-top: 10px;
+        padding-bottom: 24px;
+        padding-left: 98px ;
+    }
+    .head_p1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #5A9CD4;
+        padding-bottom: 64px;
+        padding-left: 145px ;
+    }
+    .head_img1{
+        padding:64px 0px 10px 29px ;
+        width: 691px !important;
+    }
+                                                 /*head_left end here*/
+                                                 /*head_right start here*/
+    .head_img2{
+        width: 156px !important;
+        margin:0 auto;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-bottom: 38px;
+    }
+    .login{
+        margin:0 auto;
+    }
+    .head_h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        /* identical to box height */
+
+
+        color: #000000;
+        padding-bottom: 65px;
+    }
+    .head_mail{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: #5A9CD4;
+        background: #FFFFFF;
+        border: 1px solid #5A9CD4;
+        border-radius: 15px;
+        width:100%;
+        padding: 16px 0px 16px 16px;
+    }
+    .head_pass{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: #000000;
+        padding: 16px 0px 16px 16px;
+        width: 100%;
+        margin-top: 32px;
+    }
+    .head_rp1{
+        text-align: right;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: #5A9CD4;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .head_button{
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        background: #0373BB;
+        border: 1px solid #000000;
+        border-radius: 15px;
+
+        width:100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .head_rp2{
+        padding-top: 60px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: #000000;
+        text-align: right;
+        padding-bottom: 10px;
+    }                                            /*head_right end here*/
+}
