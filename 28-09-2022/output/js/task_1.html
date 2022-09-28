@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <script>
+        let bio={
+            education:[
+                {
+                    study:"sslc",
+                    class:'10',
+                    institute:'L.m.S school',
+                    mark:86,
+                },
+                {
+                    class:'12',
+                    institute:'L.m.S school',
+                    mark:75,
+                },
+                {
+                    course:'BCA',
+                    institute:'MSU constituent college',
+                    mark:82,
+                },
+                {
+                    course:'MCA',
+                    institute:'LJCET college',
+                    mark:85,
+                },
+            ],
+
+        }
+        for(let i=0;i<bio.education.length;i++)
+        {
+            console.log(bio.education[i].institute);
+        }
+        let total=0;
+        let percentage ;
+        let count=0;
+        for(let i=0;i<bio.education.length;i++)
+        {
+            console.log(bio.education[i].mark);
+             percentage=bio.education[i].mark;
+            total=total+percentage; 
+            count++;
+        }
+        console.log(total);
+        console.log(total/count);
+    </script>
+</body>
+</html>
+
+
