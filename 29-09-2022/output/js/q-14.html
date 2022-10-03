@@ -4,24 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>q-8</title>
 </head>
 <body>
     <script>
-        function indTriangleType(side1,side2,side3){
-            if(side1==side2&&side2==side3&&side3==side1){
-                console.log("Equilateral triangle");
-            }
-            else if(side1==side2||side2==side3)
-            {
-                console.log("Isosceles triangle");
-            }
-            else{
-                console.log("Scalene triangl");
-            }
-        }indTriangleType(5,10,8);
-        indTriangleType(10,10,10);
-        indTriangleType(10,10,9);
+        let array=[10,20,30,40,50,60,70,80,90,100];
+        let largest_num=array[0];
+        for(let i=0;i<array.length;i++){
+            largest_num=array[i]>largest_num ? array[i]:largest_num;
+        }console.log(largest_num);
+
     </script>
 </body>
 </html>

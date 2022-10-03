@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="num1" type="text" />
+    
+    <input  type="button" value="add" onclick="add()"/>
+    <ul id="todoo"></ul>
+    <script>
+          if(!localStorage.getItem("todoo")){
+            localStorage.setItem("todoo",JSON.stringify([]));
+          }
+          let list=JSON.parse(localStorage.getItem("todoo"));
+        function add(){
+            let item=document.getElementById("num1").value;
+            list.push(item);
+            localStorage.setItem("todoo",JSON.stringify(list));
+            display();
+            document.getElementById("num1").value=" ";
+        }
+        function display(){
+            let ele=" ";
+            let local_list=JSON.parse(localStorage.getItem("todoo"))
+            for(let i=0;i<local_list.length;i++){
+                ele=ele+"<li>"+local_list[i]+"</li>";
+            }
+            document.getElementById('todoo').innerHTML=ele;
+        }
+        display();
+    </script>
+</body>
+</html>

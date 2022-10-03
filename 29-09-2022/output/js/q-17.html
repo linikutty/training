@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>q-17</title>
+    <title>Document</title>
 </head>
 <body>
     <script>
-        function checkLeapYear(year){
-            if(year%4==0 && !year%100==0){
-                    console.log("leap year");
-            }
-            else if (year%400==0){
-                console.log("leap year");
-            }
-            else{
-                console.log("Not a leap year");
-            }
-        }checkLeapYear(2004);
-        checkLeapYear(2006);
+     function  fibonacci() {
+
+                
+                let number = [100];
+                let n1=0 , n2=1 , num;
+                num = n1 + n2;
+
+                while (num <= number) {
+                    console.log(num);
+
+                    n1 = n2;
+                    n2 = num;
+                    num = n1 + n2;
+                }
+     }fibonacci();
     </script>
 </body>
 </html>

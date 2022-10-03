@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let a = [4,3,6,3,4,3];
+        function indDup(){
+            
+
+                
+                let counts = [];
+
+                for(let i =0; i < a.length; i++){ 
+                    if (counts[a[i]]){
+                    counts[a[i]] += 1
+                    } 
+                    else {
+                    counts[a[i]] = 1
+                    }
+                    }  
+                    //for (let prop in counts){
+                        //if (counts[prop] >= 2){
+                        //    console.log(prop + " counted: " + counts[prop] + " times.")
+                        //}
+                  //  }
+                console.log(counts);
+                
+
+                
+        }indDup(a);
+    </script>
+</body>
+</html>

@@ -7,16 +7,15 @@
     <title>Document</title>
 </head>
 <body>
+    <button onclick="test()">button</button>
     <script>
-        function findprod(){
-            let arr1 = [2,3,4,5];
-            let arr2 = [4,3,3,1];
-            let sum = 0;
-            for(let i=0; i< arr1.length; i++) {
-                sum += arr1[i]*arr2[i];
-                console.log(sum);
-            }
-        }findprod();
+        function test(){
+
+        
+        localStorage.setItem("name","shalu");
+        
+        sessionStorage.setItem("name","lini");
+        }
     </script>
 </body>
 </html>

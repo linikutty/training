@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>q-15</title>
+    <title>q-9</title>
 </head>
 <body>
     <script>
-        function checkInRange(start,num,end){
-            if(num>=start && num<=end){
-                console.log("Between the range");
+        let array = [[1, 0], [0, 4], [5, 0], [7,8], [9,10]];
+        let count=0;
+        for(let i =0; i<array.length;i++){
+            for(let j=0;j<array[i].length;j++){
+                if(array[i][j] == 0){
+                    count= count +1 ;
+                }
             }
-            else{
-                console.log("Outside the range");
-            }
-        }checkInRange(1,5,10);
-        checkInRange(1,11,10);
+        }
+        console.log(count);
+        
+           
     </script>
 </body>
 </html>
