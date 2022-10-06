@@ -13,6 +13,7 @@
     <ul id="todoo">
        
     </ul>
+    
     <script>
           if(!localStorage.getItem("todoo")){
             localStorage.setItem("todoo",JSON.stringify([]));
@@ -29,16 +30,18 @@
             let ele=" ";
             let local_list=JSON.parse(localStorage.getItem("todoo"))
             for(let i=0;i<local_list.length;i++){
-                ele=ele+"<li>"+local_list[i] + "<button onclick=removeItem()>remove</button>" +"</li>";
+                ele=ele+"<li>"+local_list[i]+" "+"<button onclick='removeItem("+i+")'>del</button>"+"</li>"
             }
             document.getElementById('todoo').innerHTML=ele;
         }
-        function removeItem(){
-          let list_new=JSON.parse(localStorage.getItem("todoo"));
-         
-
-          
-        }
+       
+       function removeItem(position){
+        let list_new=JSON.parse(localStorage.getItem("todoo"));
+        list.splice(position,1);
+        console.log(list);
+        localStorage.setItem("todoo",JSON.stringify(list));
+        display();
+       }
         display();
     </script>
 </body>
