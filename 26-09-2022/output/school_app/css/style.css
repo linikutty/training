@@ -443,6 +443,162 @@
         color: #FFFFFF;
         padding: 16px 22px 16px 22px;
     }                   /*section 5 end here*/
+    .bottom-rw-clm-left{
+        background-color: #FBFBFB;
+    border-radius: 30px;
+    padding: 74px 0 39px;
+    }
+    .bottom-clm2{
+        
+        margin: 0 auto;
+    }
+    label{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    text-align: center;
+    
+    color: #04162F;
+    
+    }
+    .form-para{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    
+    
+    color: rgba(165, 165, 165, 0.63);
+    
+    }
+    .box1{
+        background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    }
+    .box2{
+        background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    
+    }
+    .btom-btn{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    letter-spacing: 0.5px;
+    
+    color: #FFFFFF;
+    background: #04162F;
+    border-radius: 60px;
+    padding: 16px 21px;
+    }
+    .bottom-rw-clm-right{
+        padding-right: 100px;
+    }
+    /* footer starts */
+    footer{
+        background: #0295A9;
+    border-radius: 0px 0px 40px 40px;
+    padding: 188px 0 116px;
+    }
+    .footer-p1{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    
+    color: #04162F;
+    padding-right: 112px;
+    
+    }
+    .footer-p2{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    
+    
+    color: #FFFFFF;
+    margin: 10px 0 40px;
+    padding-right: 106px;
+    }
+    .footer-email-box{
+        border: 1px solid #FFFFFF;
+    border-radius: 60px;
+    width: 488px;
+    height: 74px;
+    background: #0295A9;
+    position: relative;
+    }
+    .footer-btn-box{
+        background: #FFFFFF;
+    border-radius: 60px;
+    width: 171px;
+    height: 54px;
+    position: absolute;
+    right: 77px;
+        bottom: 31px;
+    }
+    .footer-list li{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170.53%;
+    /* or 34px */
+    
+    letter-spacing: 0.5px;
+    
+    color: rgba(0, 0, 0, 0.81);
+    
+    display: inline-block;
+    margin: 0 52px 42px 0;
+    }
+    .footer-list li:last-child{
+        margin-right: 0;
+    }
+    .footer-list-heading{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170.53%;
+    /* identical to box height, or 41px */
+    
+    letter-spacing: 0.5px;
+    
+    color: #FFFFFF;
+    
+    }
+    .footer-list2 li{
+        list-style: none;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170.53%;
+    /* or 34px */
+    
+    letter-spacing: 0.5px;
+    
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    
+    }
   
 }              
 
