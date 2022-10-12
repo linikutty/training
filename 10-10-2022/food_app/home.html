@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swiggy</title>
+    <link rel="stylesheet" href ="css/theme.css"/>
+    <link rel="stylesheet" href="home.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Alkalami' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light container-fluid">
+       
+      <!-- Image and text -->
+      <img src="image/swiggy_logo.png" width="150px" height="100px" class="d-inline-block align-top" alt="">
+        
+      <a class="nav_home navbar-brand" href="home.html">SWIGGY</a>
+
+      
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="div_nav_1 navbar-nav">
+          
+            <a class="nav_a nav-link" href="view.html">Resturant </a>
+              
+           
+          </div>
+        </div>
+          <form class="form-inline my-2 my-lg-0 ">
+            
+            <input class="nav_search form-control mr-sm-2" type="search" placeholder="search here" aria-label="Search">
+            <button class="nav_btn_1 btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="nav_btn_2 btn btn-outline-success my-2 my-sm-0"  type="login">Signin</button>
+          </form>
+        
+      </nav>
+    <!--slidebar section starts here-->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/ban_1.jfif" class="d-block w-100" alt="first slide">
+        </div>
+        <div class="carousel-item">
+          <img src="image/ban_2.jfif" class="d-block w-100"  alt="second slide">
+        </div>
+        <div class="carousel-item">
+          <img src="image/ban_3.jfif" class="d-block w-100"  alt="third slide">
+        </div>
+      </div>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+    </div>
+    <!--slide bar section ends here-->
+
+    
+    <section class="shopList">
+      <h1 class="rest_list ml-5">2 RESTURANTS</h1>
+      <div class="container">
+          <h1>Order Food By Restaurant Name</h1>
+          <div id="restaurantList">
+             
+          </div>            
+      </div>
+  </section>
+  <section>
+      <div class="foodTypeList bg-secondary">
+          <div class="container">
+          <h2>Order Food By Food Type</h2>
+          <div id="foodTypeLi"></div>
+          </div>
+
+      </div>
+
+
+
+      
+
+       
+
+    <script src="js/food_app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>

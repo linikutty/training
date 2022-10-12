@@ -106,6 +106,27 @@ function addDetails(key,value,index=null,indexkey=null){
 }
 function display(){
     document.getElementById("obj_data").innerHTML=JSON.stringify(Resume);
+    
+        
+        if(!localStorage.getItem("list")){
+            localStorage.setItem("list",JSON.stringify([]));
+        }
+        
+        let list_1=JSON.parse(localStorage.getItem("list"));
+        list_1.push(Resume);
+
+        localStorage.setItem("list",JSON.stringify(list_1));
+        namedisplay();
+       
+}namedisplay();
+
+
+function namedisplay(){
+    let element=" ";
+    let index=JSON.parse(localStorage.getItem("list"));
+    for(let i=0;i<index.length;i++){
+        element=element+"<li> <a href='view.html?name="+resumeindex[i].name +"'target='_blank'>"+resumeindex[i].name+"</a></li>";
+    }
+    document.getElementById("list_ol").innerHTML=element;
+
 }
-
-

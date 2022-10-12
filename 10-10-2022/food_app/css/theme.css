@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.nav_home{
+    font-family: 'Alkalami';
+    font-size: 22px;
+    color:orangered;
+}
+.nav_a{
+    font-family: 'Alkalami';
+    font-size: 18px;
+}
+.nav_search{
+    font-family: 'Alkalami';
+    font-size: 18px;
+    margin-right: 20px;
+}
+.nav_btn_1{
+    font-family: 'Alkalami';
+    font-size: 18px;
+    margin-right: 20px;
+    
+}
+.nav_btn_2{
+    font-family: 'Alkalami';
+    font-size: 18px;
+    margin-right: 20px;
+   
+    
+}
+/*register start here*/
+.reg_head{
+    font-family: 'Alkalami';
+    font-size: 38px;
+    color:coral;
+    padding-top:35px ;
+    padding-bottom: 35px;
+}
+
+.reg_form{
+    border:5px solid gray;
+    margin:0 auto;
+    width: 50%!important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.r_head{
+    font-family: 'Alkalami';
+    font-size: 22px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reg_name{
+    font-family: 'Alkalami';
+    font-size: 18px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.reg_pass{
+    font-family: 'Alkalami';
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.reg_btn{
+    font-family: 'Alkalami';
+    font-size: 18px;
+    padding: 20px;
+    
+}
+/*register end here*/
+/*restaurant start here*/
+.restaurantCard{
+    display: flex;
+    margin: 20px;
+
+}
+.card-item{
+    margin: 15px;
+    border: 1px solid #80808047;
+    border-radius: 25px;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #8080800f;
+    font-family: 'Alkalami';
+   
+}
+.rest_list{
+    font-family: 'Alkalami';
+    font-size: 38px;
+}
+/*restaurant page*/
+.rest_sect{
+    padding-top:20px ;
+    background-color: black;
+    
+}
+.rest_row{
+    border-bottom: 15px solid white;
+}
+.kfc_head{
+    color:red;
+    text-align: center;
+    font-family: 'Alkalami';
+    font-size: 50px;
+    padding-top: 100px;
+}
+.abt_rest{
+    color:white;
+    font-family: 'Alkalami';
+    font-size: 30px;
+    margin-top: 50px;
+}
+.rest_li{
+    font-family: 'Alkalami';
+    font-size: 20px;
+    color:white;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+}
+.pizza_head{
+    color:orangered;
+    font-family: 'Alkalami';
+    font-size: 50px;
+    margin-top: 100px;
+}

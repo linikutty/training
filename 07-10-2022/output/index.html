@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+    <form>
+        <label>Name:</label>
+          <label id ="name"></label>
+        <br>
+        <label>Email:</label>
+        <label id ="email"></label>
+        <br>
+        <label>Phone:</label>
+        <label id ="mobile"></label>
+        <br>
+        <label>Objective:</label>
+        <label id ="objective"></label>
+        <br>
+        <p>Skills:</p>
+        <ul id="skill">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <br>
+        <p>Education:</p>
+        <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Course</th>
+                <th scope="col">Year</th>
+                <th scope="col">Institute</th>
+                <th scope="col">Percentage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              
+            </tbody>
+        </table>
+            <p>Certification:</p>
+            <table class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Institute</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  
+                </tbody>
+            </table>
+            <p>Projects:</p>
+            <table class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Abstract</th>
+                    <th scope="col">Year</th>
+                
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  
+                </tbody>
+            </table>
+        <h2>Personal details:</h2>
+    <label>Address:</label>
+    <br>
+    <label>Father Name:</label>
+    <br>
+    <label>Mother Name:</label>
+    <br>
+    <label>Marrital Status:</label>
+    <br>
+    <label>Date of Birth:</label>
+    <br><br>
+    <label>Gender:</label>
+    <br><br>
+    <label>language known:</label>
+    
+    <br><br>
+    <label>Hobbies:</label>
+    <br><br>
+    <label>Declaration:</label>
+    <br><br>    
+       
+</form>
+</div>
+<button>submit</button> 
+<script >
+  let resumeSelect=JSON.parse(localStorage.getItem("list"));
+  const queryString= window.location.search;
+  const urlParams= new URLSearchParams(queryString);
+  const product= urlParams.get('name');
+  alert(product);
+
+  
+
+
+      
+      for(let i=0;i<resumeSelect.length;i++){
+    if(product==resumeSelect[i].name){
+      document.getElementById("name").textContent=resumeSelect[i].name;
+      document.getElementById("email").textContent=resumeSelect[i].email;
+      document.getElementById("mobile").textContent=resumeSelect[i].mobile;
+      document.getElementById("role").textContent=resumeSelect[i].role;
+      document.getElementById("objective").textContent=resumeSelect[i].objective;
+      console.log(typeof(document.getElementById("objective").innerHTML=resumeSelect[i].objective));
+
+
+      let personal_details=resumeSelect[i].personal_details;
+      document.getElementById("fname").textContent=personal_details.fname;
+      document.getElementById("mname").textContent=personal_details.mname;
+      document.getElementById("address").textContent=personal_details.address;
+      document.getElementById("dob").textContent=personal_details.dob;
+      document.getElementById("gender").textContent=personal_details.gender;
+      document.getElementById("status").textContent=personal_details.status;
+      document.getElementById("nationality").textContent=personal_details.nationality;
+      document.getElementById("religion").textContent=personal_details.religion;
+      document.getElementById("language").textContent=resumeSelect[i].language;
+
+      let educationDetails=resumeSelect[i].education;
+      for(let i=0;i<educationDetails.length;i++){
+        document.getElementById("course"+i).textContent=educationDetails[i].course;
+        document.getElementById("year"+i).textContent=educationDetails[i].year;
+        document.getElementById("institute"+i).textContent=educationDetails[i].institute;
+        document.getElementById("percentage"+i).textContent=educationDetails[i].percentage;
+
+        let projectDetails=resumeSelect[i].project;
+      for(let i=0;i<projectDetails.length;i++){
+        document.getElementById("course"+i).textContent=projectDetails[i].course;
+        document.getElementById("abstract"+i).textContent=projectDetails[i].abstract;
+        document.getElementById("duriation"+i).textContent=projectDetails[i].year;
+      
+      }
+      let certf_Details=resumeSelect[i].certification;
+      for(let i=0;i<cerf_Details.length;i++){
+        document.getElementById("course"+i).textContent=cerf_Details[i].course;
+        document.getElementById("institution"+i).textContent=cerf_Details[i].institute;
+        document.getElementById("duriation"+i).textContent=cerf_Details[i].year;
+      
+      }
+
+      let skill_list=resumeSelect[i].skill;
+      let ele=" ";
+      for(let i=0;i<skill_list.length;i++){
+        ele +=<li> $(skill_list[i])</li>;
+      }
+      document.getElementById("skill_list").innerHTML=ele;
+      }
+  }
+}
+      
+</script>
+</body>
+</html>

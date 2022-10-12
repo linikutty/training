@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/theme.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <marquee>Good Food for Good Moments</marquee>
+    <h2 class="reg_head text-center">SWIGGY</h2>
+     
+    <form id="login-form" class="reg_form text-center"> 
+        <h2 class="r_head text-center ">LOGIN</h2>
+    <div class="reg_name form-field text-center w-100">
+        <input id="userName" type="text" class="reg_name text-center" placeholder="Enter Username" value=""/>
+    </div>
+    <div class="reg_name form-field text-center w-100">
+        <input id="userPw" type="password" class="reg_pass text-center" placeholder="Enter Password" value=""/>
+    </div>
+    
+    <div id="remember">
+        <input type="checkbox" value="lsRememberMe" id="rememberMe" 
+               style="display: inline-block;">
+        <label>Remember me</label>
+    </div>
+    <input id= "login_btn" type="submit" value="Login" onclick="check()">
+    <a href="register.html">You don't have account?</a>
+   </form>
+<script src="js/food_app.js"></script>
+</body>
+</html>
