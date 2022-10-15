@@ -44,6 +44,7 @@
     width: 50%!important;
     padding-top: 25px;
     padding-bottom: 25px;
+    background-color:aqua;
 }
 .r_head{
     font-family: 'Alkalami';
@@ -127,4 +128,11 @@
     font-family: 'Alkalami';
     font-size: 50px;
     margin-top: 100px;
+}
+
+/*view.js css*/
+.view{
+    display:inline-block;
+    margin: 20px;
+   /* margin:0 auto;*/
 }
